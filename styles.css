@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+#output {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}

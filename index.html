@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt/Decrypt Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Encrypt/Decrypt Application</h1>
+
+    <!-- Menu -->
+    <div>
+        <button id="encryptBtnMenu">Encrypt</button>
+        <button id="decryptBtnMenu">Decrypt</button>
+    </div>
+
+    <!-- Encryption Section -->
+    <div id="encryptSection" class="hidden">
+        <h2>Encrypt Your Message</h2>
+        <div>
+            <label for="messageEncrypt">Enter your message (Max 300 characters):</label>
+            <input type="text" id="messageEncrypt" placeholder="Enter message here" maxlength="300">
+        </div>
+        <button id="encryptBtn">Encrypt</button>
+    </div>
+
+    <!-- Decryption Section -->
+    <div id="decryptSection" class="hidden">
+        <h2>Decrypt Your Message</h2>
+        <div>
+            <label for="encryptedText">Encrypted Text:</label>
+            <input type="text" id="encryptedText" placeholder="Enter encrypted text">
+        </div>
+        <div>
+            <label for="keyDecrypt">Enter Key:</label>
+            <input type="text" id="keyDecrypt" placeholder="Enter key here">
+        </div>
+        <button id="decryptBtn">Decrypt</button>
+    </div>
+
+    <!-- Output Section -->
+    <div id="output"></div>
+
+    <!-- Footer Section -->
+    <footer>
+        Made with ❤️ by <a href="https://www.instagram.com/khanal_aashraya" target="_blank">Aashraya Khanal</a>.
+        <br> 
+        Connect with me on <a href="https://www.linkedin.com/in/khanalaashraya" target="_blank">LinkedIn</a>.
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
